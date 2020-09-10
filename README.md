@@ -36,9 +36,9 @@ live2d 事件核心 `./js/live2d-main.js` 部分函数说明：
 `currentTip`|根据鼠标触摸和点击提示不同文字功能函数
 `hitokoto`|一言功能主函数
 `resetLive2d`|重置 live2d 状态，当 `#live_talk` 节点的 `value` 为 `1` 时表示说话中
-`utils.debounce`|点击 live2d 发言防抖
+`utils.debounce`|点击 live2d 模型发言防抖
 `utils.formatVar`|对字符串模板进行替换，只支持将 `{ text: '' }` 替换进字符串中的 `{text}` 位置
-`utils.throttle`|主动触发一言节流
+`utils.throttle`|主动触发一言的节流
 
 live2d 触发事件提示文字文件： `./static/message.json` 
 
