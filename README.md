@@ -1,6 +1,6 @@
 # live2d-generator
 
-自动生成网页左下角 live2d 纸片人工具
+自动生成网页左下角 live2d 纸片人的工具
 
 ### 使用
 
@@ -42,7 +42,7 @@ live2d 事件核心 `./js/live2d-main.js` 部分函数说明：
 
 live2d 触发事件提示文字文件： `./static/message.json` 
 
-如果你需要自定义模型与提示文字，请根据 `./js/live2d-main.js` 做相应的路径替换。
+如果你需要自定义模型与提示文字，应该阅读 `./js` 文件夹下的源码并做相应的路径替换。
 
 ### 示例
 ![](https://cdn.jsdelivr.net/gh/fz6m/Private-picgo@moe/img/20200910190542.png)
