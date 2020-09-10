@@ -40,6 +40,10 @@ live2d 事件核心 `./js/live2d-main.js` 部分函数说明：
 `utils.formatVar`|对字符串模板进行替换，只支持将 `{ text: '' }` 替换进字符串中的 `{text}` 位置
 `utils.throttle`|主动触发一言节流
 
+live2d 触发事件提示文字文件： `./static/message.json` 
+
+如果你需要自定义模型与提示文字，请根据 `./js/live2d-main.js` 做相应的路径替换。
+
 ### 示例
 ![](https://cdn.jsdelivr.net/gh/fz6m/Private-picgo@moe/img/20200910190542.png)
 
