@@ -1,0 +1,106 @@
+{
+  "mouseover": [
+    {
+      "selector": "#talk-button",
+      "text": ["猜猜我会说啥？"]
+    },
+    {
+      "selector": "#hide-button",
+      "text": ["隐藏小天使，希望隐藏后我们还能再见面！"]
+    },
+    {
+      "selector": "#music-button",
+      "text": ["给页面加点音乐吗？"]
+    },
+    {
+      "selector": "#rainbow-button",
+      "text": ["按钮有毒，不要开启！！！<br>点一下开启，再点一下可以关闭。"]
+    },
+    {
+      "selector": "#main-container .post-content .post-title",
+      "text": ["要看看 {text} 么？"]
+    },
+    {
+      "selector": "#main-container .post-thumb img",
+      "text": ["喜欢这张图片吗，我也喜欢呢！"]
+    },
+    {
+      "selector": "#main-container #pagination a",
+      "text": ["还有更多内容哦，摩多摩多~"]
+    },
+    {
+      "selector": ".site-top a[href='https://fz6m.com']",
+      "text": ["要回到站点主页吗~"]
+    },
+    {
+      "selector": ".site-top a[href='https://gateway.fz6m.com']",
+      "text": ["是桃饱门户daze！"]
+    },
+    {
+      "selector": ".site-top a[href='https://fz6m.com/record/']",
+      "text": ["是本站所有文章列表哦~"]
+    },
+    {
+      "selector": ".site-top a[href='https://fz6m.com/dynamic/']",
+      "text": ["要看看桃饱日常语录吗~"]
+    },
+    {
+      "selector": ".site-top a[href='https://fz6m.com/links/']",
+      "text": ["是站长的好朋友们呢"]
+    },
+    {
+      "selector": ".site-top a[href='https://harem.fz6m.com']",
+      "text": ["神秘的后宫"]
+    },
+    {
+      "selector": ".site-top a[href='https://fz6m.com/about/']",
+      "text": ["桃饱的小秘密，不要偷看哦"]
+    },
+    {
+      "selector": ".site-top .searchbox i",
+      "text": ["在找什么东西呢，需要帮忙吗？"]
+    },
+    {
+      "selector": "#leimu",
+      "text": ["要蕾姆带你去页底吗qaq"]
+    },
+    {
+      "selector": "#lamu",
+      "text": ["拉姆可以帮你回到页首哦www"]
+    },
+    {
+      "selector": ".comment-textarea",
+      "text": ["说点什么呢~"]
+    },
+    {
+      "selector": "a[href='https://t.me/hajimeyuki']",
+      "text": ["桃饱电报，biubiubiu"]
+    },
+    {
+      "selector": "a[href='https://blog.csdn.net/qq_21567385']",
+      "text": ["是站长日常活跃的 csdn 哦"]
+    },
+    {
+      "selector": "a[href='https://music.163.com/m/user/home?id=291516471']",
+      "text": ["到点了，上号！"]
+    },
+    {
+      "selector": "a[href='https://github.com/fz6m']",
+      "text": ["要看看站长的源码仓库吗"]
+    }
+  ],
+  "click": [
+    {
+      "selector": "#landlord #live2d",
+      "text": [
+        "不要动手动脚的！快把手拿开~~",
+        "讨厌！哼，不和你玩了！！！",
+        "你是大笨蛋吗，走开啦~~",
+        "真…真的是不知羞耻！",
+        "hentai！",
+        "再摸的话我可要报警了！",
+        "110吗，这里有个变态！"
+      ]
+    }
+  ]
+}

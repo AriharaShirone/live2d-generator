@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="../css/style.css" rel="stylesheet" />
+  <script src="../js/live2d.js"></script>
+  <script src='https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js'></script>
+</head>
+
+<body>
+
+  <div>
+    <div id="landlord">
+      <div class="message"></div>
+      <canvas id="live2d" width="500" height="560" class="live2d"></canvas>
+
+      <input id="live_talk" name="live_talk" value="1" type="hidden" />
+
+      <div class="live-ico-box">
+
+        <div id="talk-button" class="live-ico-item type-talk"></div>
+        <div id="music-button" class="live-ico-item type-music"></div>
+        <div id="rainbow-button" class="live-ico-item type-rainbow"></div>
+        <div id="hide-button" class="live-ico-item type-quit"></div>
+
+      </div>
+    </div>
+    <div id="open-live2d">召唤小天使</div>
+  </div>
+
+  <script src="../js/live2d-main.js"></script>
+
+  <!-- 拉姆雷姆按钮 -->
+  <script src="https://cdn.jsdelivr.net/gh/fz6m/lamu-leimu-button@1.0/dist/lamu-leimu.min.js"></script>
+</body>
+
+</html>
