@@ -120,7 +120,6 @@
     formatVar: function (text, context) {
       var reg = /(\\)?\{([^\{\}\\]+)(\\)?\}/g // abc {text} def  ->  abc title def
       return text.replace(reg, function (word, slash1, token, slash2) {
-        console.log('1')
         if (slash1 || slash2) {
           word = word.replace(slash1, '').replace(slash2, '')
         }

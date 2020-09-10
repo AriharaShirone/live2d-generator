@@ -7,7 +7,7 @@
 ```html
 <head>
     <!-- live2d 核心 -->
-    <script src="https://cdn.jsdelivr.net/gh/fz6m/live2d-generator@1.0/dist/live2d.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fz6m/live2d-generator@1.1/dist/live2d.js"></script>
     <!-- jQuery -->
     <script src='https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js'></script>
 </head>
@@ -15,9 +15,9 @@
 
     <!-- 在 body 的最后 -->
     <!-- live2d 节点生成器 -->
-    <script src="https://cdn.jsdelivr.net/gh/fz6m/live2d-generator@1.0/dist/live2d-generate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fz6m/live2d-generator@1.1/dist/live2d-generate.min.js"></script>
     <!-- live2d 自定义事件 -->
-    <script src="https://cdn.jsdelivr.net/gh/fz6m/live2d-generator@1.0/dist/live2d-main.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fz6m/live2d-generator@1.1/dist/live2d-main.min.js"></script>
 </body>
 ```
 
