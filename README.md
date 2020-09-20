@@ -7,22 +7,39 @@
 ```html
 <head>
     <!-- live2d 核心 -->
-    <script src="https://cdn.jsdelivr.net/gh/fz6m/live2d-generator@1.1/dist/live2d.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fz6m/live2d-generator@1.2/dist/live2d.js"></script>
     <!-- jQuery -->
     <script src='https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js'></script>
 </head>
 <body>
 
     <!-- 在 body 的最后 -->
-    <!-- live2d 节点生成器 -->
-    <script src="https://cdn.jsdelivr.net/gh/fz6m/live2d-generator@1.1/dist/live2d-generate.min.js"></script>
-    <!-- live2d 自定义事件 -->
-    <script src="https://cdn.jsdelivr.net/gh/fz6m/live2d-generator@1.1/dist/live2d-main.min.js"></script>
+    <!-- live2d 生成器 -->
+    <script src="https://cdn.jsdelivr.net/gh/fz6m/live2d-generator@1.2/dist/live2d-generator.js"></script>
 </body>
 ```
 
+### 开发
+
+##### 安装依赖
+
+```bash
+    yarn
+```
+
+##### 构建
+
+```bash
+    yarn build
+```
+
+打包后的文件会生成到 `./dist/live2d-generator.js`
+
 ### 自定义
-live2d 事件核心 `./js/live2d-main.js` 部分函数说明：
+
+##### 事件
+
+live2d 事件核心 `./src/main/index.js` 部分函数说明：
 
 函数名 | 说明
 :-:|:-:
@@ -40,9 +57,22 @@ live2d 事件核心 `./js/live2d-main.js` 部分函数说明：
 `utils.formatVar`|对字符串模板进行替换，只支持将 `{ text: '' }` 替换进字符串中的 `{text}` 位置
 `utils.throttle`|主动触发一言的节流
 
-live2d 触发事件提示文字文件： `./static/message.json` 
 
-如果你需要自定义模型与提示文字，应该阅读 `./js` 文件夹下的源码并做相应的路径替换。
+##### 静态资源
+
+在 `./src/main/index.js` 中：
+
+行号|说明
+:-:|:-:
+14 | 静态文件基础根路径，一般情况下配置 cdn 或站点存放 live2d 资源的基础路径
+16 | 可从 live2d 动画按键来触发的特殊动画的类名，一般不需要改动
+18 | 可从 live2d 音乐按键触发的音乐列表
+24 | 指针 hover 文章标题时，标题部分的文字颜色，一般不需要改动
+26 | 从 live2d 音乐按键来播放媒体时，支持 `navigator.mediaSession` 的浏览器右上角媒体卡片显示的信息
+55 | 主进程 `start()` 函数内配置了 live2d 模型相关的文件子路径
+320 | 鼠标事件提示文字文件的路径，可参见 `./src/static/message.json`
+
+
 
 ### 示例
 ![](https://cdn.jsdelivr.net/gh/fz6m/Private-picgo@moe/img/20200910190542.png)
