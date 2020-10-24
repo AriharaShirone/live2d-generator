@@ -15,7 +15,7 @@
 
     <!-- 在 body 的最后 -->
     <!-- live2d 生成器 -->
-    <script src="https://cdn.jsdelivr.net/gh/fz6m/live2d-generator@1.2/dist/live2d-generator.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fz6m/live2d-generator@1.5/dist/live2d-generator.min.js"></script>
 </body>
 ```
 
@@ -73,6 +73,17 @@ live2d 事件核心 `./src/main/index.js` 部分函数说明：
 320 | 鼠标事件提示文字文件的路径，可参见 `./src/static/message.json`
 
 
+### 兼容性
+
+默认推荐使用精简兼容版（ *v1.5* ）
+
+如果你需要考虑适配性，可以尝试使用主分支 [master](https://github.com/fz6m/live2d-generator) 的 webpack + babel 打包版：
+
+```html
+
+    <script src="https://cdn.jsdelivr.net/gh/fz6m/live2d-generator@1.2/dist/live2d-generator.js"></script>
+
+```
 
 ### 示例
 ![](https://cdn.jsdelivr.net/gh/fz6m/Private-picgo@moe/img/20200910190542.png)
