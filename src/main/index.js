@@ -245,7 +245,7 @@ export default () => {
       // 判断是否站点首页
       if (window.location.href == homePath) {
         var now = (new Date()).getHours()
-        switch (now) {
+        switch (true) {
         case now > 23 || now <= 5:
           text = '你是夜猫子呀？这么晚还不睡觉，明天起的来嘛？'
           break

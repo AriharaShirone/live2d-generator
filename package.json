@@ -1,6 +1,6 @@
 {
   "name": "live2d-generator",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "main": "dist/live2d-generator.cjs.js",
   "browser": "dist/live2d-generator.js",
   "module": "dist/live2d-generator.esm.js",

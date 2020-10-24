@@ -15,7 +15,7 @@
 
     <!-- 在 body 的最后 -->
     <!-- live2d 生成器 -->
-    <script src="https://cdn.jsdelivr.net/gh/fz6m/live2d-generator@1.4/dist/live2d-generator.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fz6m/live2d-generator@1.5/dist/live2d-generator.min.js"></script>
 </body>
 ```
 
