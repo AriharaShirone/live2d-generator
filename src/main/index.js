@@ -224,7 +224,7 @@ export default () => {
     // 提示文字
     var text = null
 
-    if (document.referrer && !~document.referrer.hostname.indexOf(home)) {
+    if (document.referrer && !~document.referrer.indexOf(home)) {
       var referrer = document.createElement('a')
       referrer.href = document.referrer
       var domain = referrer.hostname.split('.')[1]

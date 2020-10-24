@@ -834,7 +834,7 @@
 
       var text = null;
 
-      if (document.referrer && !~indexOf$2(_context = document.referrer.hostname).call(_context, home)) {
+      if (document.referrer && !~indexOf$2(_context = document.referrer).call(_context, home)) {
         var referrer = document.createElement('a');
         referrer.href = document.referrer;
         var domain = referrer.hostname.split('.')[1];
